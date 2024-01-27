@@ -1,3 +1,4 @@
+import DeleteButton from '@/components/DeleteButton';
 import Price from '@/components/Price'
 // import { singleProduct } from '@/data'
 import { ProductType } from '@/types/types';
@@ -32,7 +33,10 @@ const SingleProductPage = async ({ params }: { params: { id: string } }) => {
                 </div>
             )}
             <div className="h-1/2 flex flex-col gap-4 md:h-[70%] md:justify-center md:gap-6 xl:gap-8">
-                <h1 className="text-3xl font-bold uppercase xl:text-5xl">{singleProduct.title}</h1>
+                <h1 className="text-3xl font-bold uppercase">
+                    <span>{singleProduct.title}</span>
+                    <DeleteButton id={singleProduct.id} />
+                </h1>
                 <p>{singleProduct.desc}</p>
                 <Price product={singleProduct} />
             </div>
