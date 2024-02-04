@@ -18,4 +18,5 @@ yarn dev
 * Orders page.
 * Checkout page.
 
-![screencapture-millano-italiano-netlify-app-2024-02-04-22_50_42](https://github.com/Shahreyar00/Hiverr-FullStack-MERN/assets/70688937/b35fb1fc-72fa-4562-aab1-c72a5d677eb8)
+****
+![screencapture-millano-italiano-netlify-app-2024-02-04-22_53_04](https://github.com/Shahreyar00/Hiverr-FullStack-MERN/assets/70688937/dfff5a92-ea04-44e7-af65-56b73d86ccc8)
